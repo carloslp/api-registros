@@ -1,0 +1,22 @@
+meta {
+  name: usuario
+  type: http
+  seq: 4
+}
+
+post {
+  url: https://apo-registro.paas.oracle-mty1.juanlopez.dev/api/register
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "email": "juanca2696@gmail.com"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

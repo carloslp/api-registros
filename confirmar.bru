@@ -1,0 +1,20 @@
+meta {
+  name: confirmar
+  type: http
+  seq: 6
+}
+
+post {
+  url: https://apo-registro.paas.oracle-mty1.juanlopez.dev/api/confirm
+  body: json
+  auth: inherit
+}
+
+body:json {
+  { "email": "juanca2696@gmail.com", "code": "29153413" }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

@@ -24,6 +24,7 @@
     "escape-html": "^1.0.3",
     "etag": "^1.8.1",
     "express": "^5.2.1",
+    "express-basic-auth": "^1.2.1",
     "finalhandler": "^2.1.1",
     "forwarded": "^0.2.0",
     "fresh": "^2.0.0",
@@ -34,6 +35,7 @@
     "has-symbols": "^1.1.0",
     "hasown": "^2.0.2",
     "http-errors": "^2.0.1",
+    "http-proxy-middleware": "^2.0.6",
     "iconv-lite": "^0.7.2",
     "inherits": "^2.0.4",
     "ipaddr.js": "^1.9.1",
@@ -90,7 +92,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -99,7 +102,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/carloslp/api-registros/issues"
+    "url": "https://github.com/carloslp/api-registros-gateway/issues"
   },
-  "homepage": "https://github.com/carloslp/api-registros#readme"
+  "homepage": "https://github.com/carloslp/api-registros-gateway/#readme"
 }

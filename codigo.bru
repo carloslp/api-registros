@@ -1,0 +1,20 @@
+meta {
+  name: codigo
+  type: http
+  seq: 5
+}
+
+post {
+  url: https://apo-registro.paas.oracle-mty1.juanlopez.dev/api/generate-code
+  body: json
+  auth: inherit
+}
+
+body:json {
+  { "userId": 2 }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
